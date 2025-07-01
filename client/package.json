@@ -10,7 +10,11 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "mobx": "^6.12.0",
+    "mobx-react-lite": "^4.0.5",
+    "axios": "^1.6.0",
+    "ws": "^8.18.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:3001"
 }
