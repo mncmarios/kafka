@@ -100,6 +100,7 @@ const FileUploadWorkflow = observer(({ workflowsStore }) => {
                   <span>{step.icon}</span>
                   <span>{step.label}</span>
                   {hasOutput && <span>✅</span>}
+                  }
                 </div>
                 {index < processingSteps.length - 1 && (
                   <div className="mx-1 text-gray-400">→</div>
